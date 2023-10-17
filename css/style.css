@@ -38,13 +38,13 @@ header{
 
 }
 
-.uno{
+.first{
     margin-top: 60px;
     width: 900px;
     height: 50px;
 }
 
-.due{  
+.second{  
     margin-top: 5px;
     margin-bottom: 20px;
     width: 900px;
@@ -54,7 +54,7 @@ header{
 /* caratteristiche del nav */
 nav{
     line-height: 50px;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 
 #task{
@@ -76,4 +76,84 @@ nav{
     margin-left: 3px;
 }
 /* caratteristiche main */
+ul{
+    list-style-type: none;
+    margin-left: 50px;
+}
+li{
+    font-size: large;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 30px;
+}
+
+/* caratteristiche testo lista */
+.text-li{
+    font-weight:normal;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+/* layout check */
+.spunta{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid rgb(0, 255, 47);
+    color: rgb(34, 255, 0);
+}
+
+/* layout x */
+.nonspunta{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid red;
+    color: red;
+}
+
+/* riquadri fine testo */
+.square{
+    display: inline-block;
+    height: 30px;
+    width: 80px;
+    vertical-align: middle;
+    border-radius: 15px;
+    margin:0;
+    font-weight: bold;
+    font-size: 12px;
+    vertical-align: middle;
+    line-height: 30px;
+    text-align: center;
+    color:rgb(255, 255, 255);
+}
+
+/* colori riquadri fine testo  */
+.uno{
+    background-color: rgb(3, 129, 255);
+    
+}
+#due{ background-color:  rgb(188, 8, 238);
+  
+}
+.tre{
+    background-color: rgb(0, 173, 150);
+}
+.quattro{
+    background-color: rgb(255, 121, 3);
+}
+.cinque{
+    background-color:rgb(255, 0, 162) ;
+}
+.sei{
+    background-color: rgb(31, 195, 91);
+}
+
+
 
